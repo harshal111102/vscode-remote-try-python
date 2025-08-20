@@ -8,4 +8,5 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
+    """Serves the index.html static file."""
     return app.send_static_file("index.html")
