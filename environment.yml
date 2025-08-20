@@ -1,0 +1,5 @@
+name: python-env
+dependencies:
+  - python=3.9
+  - pip
+  - # add other packages you need
